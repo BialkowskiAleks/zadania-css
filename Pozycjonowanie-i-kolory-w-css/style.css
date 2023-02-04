@@ -1,0 +1,124 @@
+.big-square {
+	width: 500px;
+	height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: lightgray;
+}
+
+.small-square {
+	width: 166.67px;
+	height: 166.67px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.square1 {
+	background-color: red;
+}
+
+.square2 {
+	background-color: blue;
+}
+
+.square3 {
+	background-color: green;
+}
+
+.square4 {
+	background-color: yellow;
+}
+
+.square5 {
+	background-color: black;
+}
+
+.square6 {
+	background-color: orange;
+}
+
+.square7 {
+	background-color: purple;
+}
+
+.square8 {
+	background-color: gray;
+}
+
+.square9 {
+	background-color: pink;
+}
+
+.square1::before {
+	content: "";
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-color: pink;
+	border: 0.5px solid;
+}
+.square2::before {
+	content: "";
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-color: gray;
+	border: 0.5px solid;
+}
+.square3::before {
+	content: "";
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-color: purple;
+	border: 0.5px solid;
+}
+.square4::before {
+	content: "";
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-color: darkgreen;
+	border: 0.5px solid;
+}
+.square5::before {
+	content: "";
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-color: red;
+	border: 0.5px solid;
+}
+.square6::before {
+	content: "";
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-color: blue;
+	border: 0.5px solid;
+}
+.square7::before {
+	content: "";
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-color: orange;
+	border: 0.5px solid;
+}
+.square8::before {
+	content: "";
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-color: yellow;
+	border: 0.5px solid;
+}
+.square9::before {
+	content: "";
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	background-color: black;
+	border: 0.5px solid;
+}
