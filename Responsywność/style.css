@@ -40,7 +40,7 @@ figure img {
 	}
 }
 @media screen and (max-width: 480px) {
-	#gallery {
+	#figure {
 		width: 100%;
 	}
 }
